@@ -4,6 +4,8 @@ Python program that mines whois databases for a organisation name/keyword and re
 Currently the program mines:
  * whois.arin.net
  * whois.ripe.net
+ * whois.afrinic.net
+ * whois.apnic.net
 
 Ideal for red-teaming and bug-bounty hunters
 
