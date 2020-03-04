@@ -38,7 +38,10 @@ if len(sys.argv) < 2:
 
 keyword=sys.argv[1]
 
-ipv6 = True if int(sys.argv[2]) == 6 else False
+if len(sys.argv) == 3:
+  ipv6 = True if int(sys.argv[2]) == 6 else False
+else:
+  ipv6=0
 
 if ipv6 == False:
   # Search ARIN
